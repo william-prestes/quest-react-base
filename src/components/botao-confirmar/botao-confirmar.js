@@ -1,5 +1,7 @@
+import './botao-confirmar.css';
+
 const BotaoConfirmar = (props) => {
-    return <button onClick={() => alert (`A label desse botão é ${props.label}`)}>{props.label}</button>;
+    return <button className="botao" onClick={() => alert (`A label desse botão é ${props.label}`)}>{props.label}</button>;
 }
 
 BotaoConfirmar.defaultProps = {

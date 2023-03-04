@@ -4,10 +4,10 @@ import BotaoConfirmar from './components/botao-confirmar/botao-confirmar';
 
 function App() {
   return (
-    <>
+    <div className='container'>
       <TextoDecorado />
       <BotaoConfirmar />
-    </>
+    </div>
   );
 }
 
